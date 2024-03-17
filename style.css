@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: rgb(55, 0, 55);
+    min-width: 950px;
+}
+
+nav{
+    height: 70px;
+    background-color: rgb(74, 9, 106);
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.under{
+    font-size: 20px;
+    font-stretch: extra-expanded;
+}
+.navi > div.left{
+    font-size: 30px;   
+} 
+.name{
+    color: rgb(156, 87, 222) ;
+}
+nav ul{
+    display: flex;
+    /*   */
+}
+nav ul li{
+
+    list-style-type: none;  
+    margin: 0px 20px;
+    font-size: 20px;
+}
+nav ul li:hover{
+    color: rgb(156, 87, 222);
+    /* position: relative; */
+    font-size: 1.05rem;
+}
+.info{
+    margin: 13vh 0px;
+    /* height: 20rem; */
+    display: flex;
+    justify-content: space-around;
+}
+.right-info{
+    font-size: larger;
+    font-weight: bold;
+    margin: 80px 0px;
+    font-size: 50px;
+    color: white;
+    /* background-color: red; */
+}
+
+#element{
+    color: rgb(156, 87, 222) ;
+}
+.second-section{
+    margin: 10vh 7vw;
+    height: 800px;
+}
+.second-section p{
+    color: rgb(156, 87, 222);
+    font-size: 2vh;
+}
+.second-section h1{
+    color: white;
+    font-size: 5vh;
+}
+.second-section hr{
+    color: white;
+    /* */
+}
+
+.ver{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.ver .vertical{
+    height: 20vh;
+    width: 2px;
+    background-color:white;
+}
+
+.logos{
+    margin: 10vh 0px 0px 0px;
+    display: flex;
+    position: relative;
+    /* justify-content: space-evenly; */
+    left:0px
+    
+}
+.ver .vertical img{
+    width: 40px;   
+    margin: 1vh 1vh;
+    height: 48px;
+}
+
+/* .logos img{
+    width: 35px;
+    position: relative;
+    /* left: -17vw; */
+    /* top: -6vh; */
+
+ 
+
+/* .mongo{
+    width: 35px;
+    position: relative;
+    top: -6vh;
+    left: 68vw;
+} */
+.vertical div{
+    margin-top: 5vh;
+    margin-left: 1vw;
+    color:rgb(156, 87, 222);
+    font-size: 20px;
+    width: 14vw;
+}
+.vertical h1{
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+footer{
+    background-color:  rgb(74, 9, 106);
+    height: 40vh ;
+}
+.footer{
+   
+    display: flex;
+    justify-content:space-evenly ;
+}
+.footer div{
+    margin-top: 10vh;
+}
+.foot-name{
+ color:white;
+ font-size: 50px;
+ width: 200px;
+}
+.st{
+    color:rgb(156, 87, 222) ;
+ 
+
+}
+.st ul{
+    list-style-type: none;
+    font-size: 25px;
+}
+.nd{
+    color:rgb(156, 87, 222) ;
+ 
+
+}
+.nd ul{
+    list-style-type: none;
+    font-size: 25px;
+}
+.rd{
+    color:rgb(156, 87, 222) ;
+ 
+
+}
+.rd ul{
+    list-style-type: none;
+    font-size: 25px;
+}
+.rights{
+    text-align: center;
+    margin-top: 6vh;
+    font-size: 3vh;
+    color: white;
+}
